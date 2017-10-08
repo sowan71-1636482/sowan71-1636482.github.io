@@ -1,8 +1,39 @@
-p {
-	font-family: Verdana, Courier New
+p.p1 {
+	font-family: Verdana;
+	color: blue;
+}
+
+p.p2 {
+	font-family: Courier New
 }
 
 img.resize {
 	width: 50px;
 	height: 50px;
 }
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img.margin {
+	border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+p.border {
+	border-style:dotted;
+}
+
