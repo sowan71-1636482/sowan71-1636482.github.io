@@ -37,3 +37,8 @@ p.border {
 	border-style:dotted;
 }
 
+img.float {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
