@@ -1,3 +1,9 @@
+/*
+	1. header text shadow
+	2. rounded borders for leftnav
+	3. changed opacity of the body
+*/
+
 #Header{
 	width: 500px;
 	margin-left: auto;
@@ -15,7 +21,8 @@
 	float: left;
 	border:solid 8px black;
 	text-align: center;
-	padding-bottom: 8px; 
+	padding-bottom: 8px;
+	border-radius: 25px; 
 }
 
 #Content{
@@ -45,8 +52,9 @@ ul{
 #Header h1{
 	font-size: 60px;
 	font-family: "Passion One";
-	color: #983351;
+	color: #FFBC00;
 	font-weight: bold;
+	text-shadow: 2px 2px;
 }
 
 p{
@@ -68,6 +76,7 @@ div{
 
 body{
 	background-image: url('dark_wood.png');
+	opacity: 0.5;
 }
 
 a{
