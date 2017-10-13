@@ -2,6 +2,8 @@
 	1. header text shadow
 	2. rounded borders for leftnav
 	3. changed opacity of the body
+	4. double outline for content box
+	5. outline color for content box
 */
 
 #Header{
@@ -14,7 +16,7 @@
 }
 
 #LeftNav{
-	width: 400px;
+	width: 200px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
@@ -33,6 +35,8 @@
 	border:solid 8px black;
 	text-align: center;
 	padding: 15px;
+	outline-style: double;
+	outline-color: white;
 }
 
 #Footer{
