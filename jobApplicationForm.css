@@ -1,0 +1,24 @@
+body{
+	background-color: green;
+}
+ fieldset{
+ 	border-color: red;
+ 	border-width: 5px;
+ 	border-style: double;
+ 	width: 1000px;
+ }
+ legend{
+ 	font-family: "Verdana";
+ 	font-weight: bold;
+ 	font-size: 20px;
+ 	letter-spacing: 3px;
+ }
+ h2{
+ 	font-family: "Verdana";
+ 	letter-spacing: 3px;
+ 	font-size: 30px;
+ 	text-shadow: 3px 2px red;
+ }
+#tree{
+	float: center;
+}
