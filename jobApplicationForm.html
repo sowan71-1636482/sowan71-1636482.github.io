@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="jobApplicationForm.css">
+	<meta charset="utf-8">
+	<title>Santa's Elf Application!</title>
+</head>
+<body>
+
+<h2>Santa's Elf Application!</h2>
+	<div id="tree">
+		<img src="christmastree.png">
+	</div>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+	<fieldset>
+		<legend>Important Christmas Quote</legend>
+		<div class="field">
+			<label>Which famous elf said this?</label><br>
+			<p>"The best way to spread Christmas Cheer, is singing loud for all to hear." (failure to answer this question correctly will lower your chances of landing an interview with Santa's assistant)</p>
+			<input type="text" name="elf">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>How Much Christmas Spirit Do You Have?</legend>
+		<div class="field">
+			<input type="checkbox" name="Christmas Spirit" value="1">I have all the Christmas spirit<br> 
+			<input type="checkbox" name="Christmas Spirit" value="2">I think Christmas is pretty cool<br>
+			<input type="checkbox" name="Christmas Spirit" value=3>I am just starting to understand the magic of Christmas<br>
+			<input type="checkbox" name="Christmas Spirit" value="4">I am just in it for the presents<br>
+			<input type="checkbox" name="No Christmas Spirit" value="5">I have no soul so therefore, I don't believe in the magic of Christmas
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>Are you short? (All elf applicants must be 4 feet or less)</legend>
+			<input type="radio" name="answer" value="yes"> Yes<br>
+			<input type="radio" name="answer" value="no"> No
+	</fieldset>
+	<fieldset>
+		<legend>Are you a sweet tooth?</legend>
+		<label>How many cookies/pieces of candy can you eat in one sitting?</label>
+		<input type="Number" name="rate" min="0" max="100">
+	</fieldset>
+
+	<fieldset>
+		<legend>Personal Information</legend>
+		<div class="field">
+			<label>Full Name:</label><br> 
+			<input type="text" name="name">
+		</div>
+		<div class="field">
+			<label>Christmas Role:</label><br> 
+			<select name="Role">
+				<option value="" selected="true">Choose a Role</option>
+				<option value="Elf">Toy Maker</option>
+				<option value="Baker">Cookie Baker</option>
+				<option value="Milk Warmer">Milk Warmer</option>
+				<option value="List Checker">List Checker</option>
+				<option value="2nd List Checker">2nd List Checker</option>
+				<option value="Reindeer Washer">Reindeer Groomer</option>
+				<option value="Sled Polisher">Sled Polisher</option>
+				<option value="Gift Wrapper">Gift Wrapper</option>
+				<option value="Santa Suit Cleaner"> Santa Suit Cleaner</option>
+			</select>
+		</div>
+		<div class="field">
+			<label>Prefered Christmas name:</label><br> 
+				<input type="text" name="name">
+		</div>
+		<div class="field">
+			<label>Phone Number:</label><br>
+				<input type="text" name="Phonenumber" maxlength="10">
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Availability</legend>
+		<div class="field">
+			<label>Are you readily available to come to the North Pole?</label> 
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+		<div class="field">
+			<label>What type of position are you seeking?</label><br>
+			<input type="checkbox" name="position_pt" value="parttime">Seasonal<br>
+			<input type="checkbox" name="position_ft" value="fulltime">Full Time<br>
+		</div>
+		<div class="field">
+			<label>Months available</label>
+			<table>
+				<tr>
+					<td></td>
+					<th>January-March</th>
+					<th>April-June</th>
+					<th>July-September</th>
+					<th>October-December</th>
+				</tr>
+				<tr>
+					<th>Days</th>
+					<td><input type="day" size="20" name="January-March_Days"></td>
+					<td><input type="day" size="20" name="April-June_Days"></td>
+					<td><input type="day" size="20" name="July-September_Days"></td>
+					<td><input type="day" size="20" name="October-December_from"></td>
+				</tr>
+			</table>
+		</div>
+	</fieldset>
+	<fieldset>
+		<legend>Previous Christmas Experience</legend>
+		<label>Tell us about any past experience you have had working in your city during the holiday season that is related to the position you are applying for.</label><br>
+		<textarea name="Experience" rows="6" cols="100"></textarea>
+	</fieldset>
+
+	<fieldset>
+		<legend>Tell Us About Yourself</legend>
+		<div class="field">
+			<label>Why do you want to work for Santa?</label><br>
+			<textarea name="deserve" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>What was your favorite Christmas memory?</label><br>
+			<textarea name="project" rows="6" cols="60"></textarea>
+		</div>
+	</fieldset>
+
+	<fieldset>
+		<legend>Santa's Secret Code</legend>
+		<label>Elf applicants who have Santa's secret code passed down from previous elf friends will have exclusive access to Santa's cookie break room.</label><br>
+		<input type="password" name="pwd">
+	</fieldset>
+	<fieldset>
+		<legend>References</legend>
+		<label>Name:</label>
+		<input type="text" name="References">
+		<label>Company Title:</label>
+		<input type="text" name="Company title">
+		<label>Phone Number:</label>
+		<input type="Phonenumber" name="Phonenumber"><br>
+		<label>Name:</label>
+		<input type="text" name="References">
+		<label>Company Title:</label>
+		<input type="text" name="Company title">
+		<label>Phone Number:</label>
+		<input type="Phonenumber" name="Phonenumber"><br>
+		<label>Name:</label>
+		<input type="text" name="References">
+		<label>Company Title:</label>
+		<input type="text" name="Company title">
+		<label>Phone Number:</label>
+		<input type="Phonenumber" name="Phonenumber"><br>
+	</fieldset>
+	<input type="submit" value="Submit form">
+
+</form>
+</body>
+</html>
